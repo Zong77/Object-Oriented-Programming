@@ -1,0 +1,54 @@
+import java.util.;
+
+public class Main {
+
+    public static void main(String args[]) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("第一題");
+        System.out.println("2 + 6 = ( )");
+        System.out.print("輸入答案 : ");
+        int x = sc.nextInt();
+        if (x == 8) {
+            System.out.println("答對了 ! ");
+        } else {
+            System.out.println("答錯了 ! ");
+            System.out.println("正確答案 : 8");
+        }
+        System.out.println("第二題");
+        System.out.println("( ) - 45 = 20");
+        System.out.print("輸入答案 : ");
+        int y = sc.nextInt();
+        if (y == 65) {
+            System.out.println("答對了 ! ");
+        } else {
+            System.out.println("答錯了 ! ");
+            System.out.println("正確答案 : 65");
+        }
+        System.out.println("第三題");
+        System.out.println("9 9 = ( )");
+        System.out.print("輸入答案 : ");
+        int z = sc.nextInt();
+        if (z == 81) {
+            System.out.println("答對了 ! ");
+        } else {
+            System.out.println("答錯了 ! ");
+            System.out.println("正確答案 : 81");
+        }
+        if (x == 8 && y == 65 && z == 81) {
+            System.out.println("全對，一級棒!!");
+        } else if (x != 8 && y == 65 && z == 81) {
+            System.out.println("過關!");
+        } else if (x == 8 && y != 65 && z == 81) {
+            System.out.println("過關!");
+        } else if (x == 8 && y == 65 && z != 81) {
+            System.out.println("過關!");
+        } else if (x != 8 && y != 65 && z == 81) {
+            System.out.println("加油!!");
+        } else if (x != 8 && y == 65 && z != 81) {
+            System.out.println("加油!!");
+        } else if (x == 8 && y != 65 && z != 81) {
+            System.out.println("加油!!");
+        }
+
+    }
+}
