@@ -1,7 +1,7 @@
-// app8_13, ¨p¦³¦¨­ûµLªk±qÃş§O¥~³¡¨Ó¦s¨úªº½d¨Ò
-class CCircle              // ³]©wfield¬°¨p¦³¦¨­û
+// app8_13, ç§æœ‰æˆå“¡ç„¡æ³•å¾é¡åˆ¥å¤–éƒ¨ä¾†å­˜å–çš„ç¯„ä¾‹
+class CCircle              // è¨­å®šfieldç‚ºç§æœ‰æˆå“¡
 {
-   private double pi=3.14;       // ±N¸ê®Æ¦¨­û³]©wªì­È
+   private double pi=3.14;       // å°‡è³‡æ–™æˆå“¡è¨­å®šåˆå€¼
    private double radius;
 
    void show_area()
